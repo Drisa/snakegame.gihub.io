@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake Game</title>
+    <!-- Link to the external style sheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Create a container for the game -->
+    <div class="container">
+        <!-- Create a canvas element for the game board -->
+        <canvas id="board" width="400" height="400"></canvas>
+        <!-- Create a div element for the start screen -->
+        <div id="start-screen" class="screen">
+            <h1>Snake Game</h1>
+            <p>Use arrow keys or swipe to move the snake.</p>
+            <p>Eat food to grow and score points.</p>
+            <p>Avoid hitting the walls or yourself.</p>
+            <button id="start-button">Start</button>
+        </div>
+        <!-- Create a div element for the game over screen -->
+        <div id="game-over-screen" class="screen">
+            <h1>Game Over</h1>
+            <p>Your score: <span id="score"></span></p>
+            <button id="restart-button">Restart</button>
+        </div>
+    </div>
+    <!-- Link to the external script file -->
+    <script src="script.js"></script>
+</body>
+</html>

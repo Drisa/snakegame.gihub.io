@@ -1,0 +1,61 @@
+/* Define some basic styles for the body element */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Define some styles for the container element */
+.container {
+    width: 400px;
+    height: 400px;
+    margin: 20px auto;
+    position: relative;
+}
+
+/* Define some styles for the canvas element */
+#board {
+    border: 2px solid black;
+}
+
+/* Define some styles for the screen elements */
+.screen {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Define some styles for the headings */
+.screen h1 {
+    color: white;
+    font-size: 36px;
+}
+
+/* Define some styles for the paragraphs */
+.screen p {
+    color: white;
+    font-size: 18px;
+}
+
+/* Define some styles for the buttons */
+.screen button {
+    width: 100px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    background-color: green;
+    color: white;
+    font-size: 18px;
+}
+
+/* Hide the game over screen by default */
+#game-over-screen {
+    display: none;
+}
